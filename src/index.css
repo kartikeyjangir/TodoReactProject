@@ -1,0 +1,112 @@
+html {
+  font-size: 62.5;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(115, 173, 226);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.todolist {
+  margin-top: 4rem;
+  background-color: whitesmoke;
+  border-radius: 1.5rem;
+  height: 33rem;
+  min-width: 22rem;
+  box-shadow: 5px 5px 25px -5px rgb(112, 112, 112);
+  overflow: hidden;
+}
+
+.heading {
+  background-color: rgb(182, 114, 182);
+  color: whitesmoke;
+  position: relative;
+  top: 20px;
+  text-align: center;
+}
+
+.inputdiv {
+  position: relative;
+  top: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+input {
+  text-align: center;
+  height: 3rem;
+  border: none;
+  background: transparent;
+  font-size: 2rem;
+  font-weight: 50;
+  width: 60%;
+  border-bottom: 2px solid #8566aa;
+  outline: none;
+  color: rgb(110, 109, 109);
+}
+
+/* button */
+
+button {
+  background-color: rgb(182, 114, 182);
+  color: whitesmoke;
+  font-size: 2.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+}
+.addtodobutton {
+  position: relative;
+  top: 0.8rem;
+}
+.addtodobutton:hover {
+  font-weight: 100;
+  background-color: rgb(33, 172, 33);
+}
+
+.donebutton {
+  margin-right: 1rem;
+}
+.donebutton:hover {
+  background-color: red;
+}
+
+/* list */
+
+ol {
+  margin: 6rem 3rem 0 3rem;
+  list-style-type: none;
+}
+
+ol li {
+  padding-left: 0;
+  text-align: left;
+  color: #8566aa;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 0.1rem;
+}
+
+.maintodo {
+  display: flex;
+  direction: row;
+  justify-content: left;
+  align-items: center;
+}
+.maintodoli {
+  align-items: center;
+  padding-bottom: 1.4rem;
+  text-transform: capitalize;
+}
