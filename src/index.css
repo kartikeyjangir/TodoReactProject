@@ -110,3 +110,11 @@ ol li {
   padding-bottom: 1.4rem;
   text-transform: capitalize;
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: green;
+  }
+  .todolist {
+    width: 14rem;
+}
